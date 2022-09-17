@@ -1,4 +1,4 @@
-# HTML and CSS: FInal  Project
+# HTML and CSS: Final  Project
  
 By working through the lessons in this course, you have learned the necessary skills and knowledge to develop a home page for a fictional client. 
 
@@ -15,7 +15,6 @@ Still have some questions? The reading About the graded assessment provides answ
 ## Review criteria
 less 
 When you submit your assignment, other learners in the course will review and grade your work. They will be looking for the following:
-<br> 
 
 
 ## Visual layout
@@ -36,7 +35,6 @@ When you submit your assignment, other learners in the course will review and gr
 
 * Does the left column of the footer contain a small version of the client logo and the right column copyright text?
 
-<br> 
 
 ## Semantic structure
 
@@ -53,7 +51,6 @@ When opening the HTML file in VS Code, does it contain:
 * Appropriate usage of other semantic tags such as article and section in the content of the main element?
 
   
-<br> 
 
 ## CSS layout, styling and effects
 
@@ -73,7 +70,6 @@ When opening the CSS file in VS code, ask yourself the following:
 
 * Are any animations or transition effects used? Do they improve the user experience or distract from it?
 
-<br> 
 
 ## Overall effect of the home page
 
@@ -87,7 +83,6 @@ When opening the CSS file in VS code, ask yourself the following:
 
 You'll also need to give feedback on and grade the assignments of two other learners using the same criteria.
 
-<br>
 Example:
 
 ![[Tux, the Linux mascot](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vdVGqYkvTvCljRQiRWCWzA_008b6a7c5e6c42d29e66ca1e435936e1_little-lemon-full-1-.png?expiry=1663545600000&hmac=bKYDfmJdeHtcBBmYzBAa05nfdE1iAi2SiUWspYVmejo)](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/vdVGqYkvTvCljRQiRWCWzA_008b6a7c5e6c42d29e66ca1e435936e1_little-lemon-full-1-.png?expiry=1663545600000&hmac=bKYDfmJdeHtcBBmYzBAa05nfdE1iAi2SiUWspYVmejo)
