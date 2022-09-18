@@ -72,6 +72,6 @@ a.fc-col-header-cell-cushion {
 /* add medie query for phones */
 @media only screen and (max-width: 600px) {
     .promotion-section {
-        height: 80vh;
+        height: 40rem;
     }
 }
