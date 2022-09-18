@@ -1,43 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project: Hair Day </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project: Hair Day demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <img src="" alt="">
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li> <a href="menu.html">Menu</a></li>
-            <li> <a href="book.html">Book</a></li>
-            <li> <a href="about.html">About</a></li>
-        </ul>
-    </nav>
+
+<body class="bg-dark text-white">
+    <div class="container mx-auto">
+        <header>
+            <div class="container-fluid py-5">
+                <img src="img/Artboard 23.png" class="img-fluid" alt="">
+            </div>
+        </header>
+        <nav>
+            <ul class="d-flex justify-content-center list-unstyled" id="menu1">
+                <li class="px-3"><a href="index.html">Home</a></li>
+                <li class="px-3"> <a href="locations.html">Locations</a></li>
+                <li class="px-3"> <a href="booking.html">Booking</a></li>
+                <li class="px-3"> <a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="promotion-section">
+                <h1>Book your appointment</h1>
+                <p>You will never feel better!</p>
+                <button class="btn bg-wheat" id="promotionButton">Book Now</button>
+
+            </section>
+
+            <section class="articles-sections mt-5 row">
+                <article class="col-md-4 my-1">
+                    <div class="card text-light bg-dark mb-3 border">
+                        <div class="card-header fw-bold bg-wheat text-dark">Our Services</div>
+                        <div class="card-body">
+                            <img src="https://images.unsplash.com/photo-1511920771146-1a7271092231?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1139&q=80"
+                                alt="person getting a haircut" class="img-fluid border border-dark rounded">
+                            <p class="card-text mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea dolorem excepturi vero. Libero soluta necessitatibus numquam reiciendis eligendi quaerat voluptas, autem iusto quis vitae dolore labore quod. Dolores, in ad?</p>
+
+                                <a href="#" class="text-light">Read more!</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-4 my-1">
+                    <div class="card text-light bg-dark mb-3 border">
+                        <div class="card-header fw-bold bg-wheat text-dark">Locations</div>
+                        <div class="card-body">
+                            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                                alt="person getting a haircut" class="img-fluid border border-dark rounded">
+                            <p class="card-text mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas est eligendi quo voluptatum, recusandae totam aperiam fugiat numquam. Cumque non, distinctio placeat dignissimos voluptate illo dolorum sequi totam debitis dolores.</p>
+
+                                <a href="#" class="text-light">Read more!</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col-md-4 my-1">
+                    <div class="card text-light bg-dark mb-3 border">
+                        <div class="card-header fw-bold bg-wheat text-dark">About Us!</div>
+                        <div class="card-body">
+                            <img src="https://images.unsplash.com/photo-1467779009031-53938b78ca38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                                alt="person getting a haircut" class="img-fluid border border-dark rounded">
+                            <p class="card-text mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ex officia quibusdam exercitationem quaerat deserunt, sunt ducimus at, totam itaque rem mollitia expedita consectetur nihil iste quas hic tempora nam!</p>
+
+                                <a href="#" class="text-light">Read more!</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="mt-5 d-flex justify-content-center">
+
+                <div class="elfsight-app-d71aadf2-771f-44d2-bec7-ec0ef628dde3"></div>
+                
+            </section>
+
+        </main>
+        <footer class="mt-5 row pb-3 pt-5">
+            <hr>
+            <div class="col-md-2">
+                <img src="img/Artboard 1.png" class="img-fluid" style="max-width: 5rem;" alt="company logo">
+            </div>
+            <div class="col d-flex justify-content-end align-items-end">
+                <p>All Right Reserved Hair-Day 2202!</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     
-    <main>
-
-        <!-- Promotion sections -->
-        <section>
-
-        </section>
-
-        <!-- 3 info sections -->
-        <section class="articles-sections">
-            <article>1</article>
-            <article>2</article>
-            <article>3</article>
-
-        </section>
-
-    </main>
-    <footer>
-        <div>1</div>
-        <div>2</div>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
 </body>
+
 </html>
